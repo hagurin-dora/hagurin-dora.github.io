@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ドラえもん好きのポートフォリオサイト</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <h1>ドラえもん</h1>
-  <p>UI/UXデザイナー見習いです。ドットインストールで勉強中です。</p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="image/logo.svg" alt="">
+        </a>
+      </h1>
+      <div class="header-nav">
+        <ul class="header-list">
+          <li class="nav-item"><a href="#About">About</a></li>
+          <li class="nav-item"><a href="#Works">Works</a></li>
+          <li class="nav-item"><a href="#News">News</a></li>
+          <li class="nav-item"><a href="#Contact">Contact</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/"><img src="image/icon-instagram.png" alt=""></a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="mainvisual">
+        <img src="image/mainvisual-pc.jpg" alt="">
+      </div>
+      <section class="about">
+        <div class="wrapper">
+          <h2 class="section-title">About</h2>
+          <ul class="prof-cont">
+            <li>Xxxxx Ashley</li>
+            <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan<br> tel: 000-0000-0000<br> url: www.xxxxxx.jp<br> mail: xxx@xxxxxx.jp</li>
+          </ul>
+          <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキ ストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキスト</p>
+        </div>
+      </section>
+      <section class="works">
+        <div class="wrapper">
+          <h2 class="section-title">Works</h2>
+            <ul class="works-list">
+              <li><img src="image/works1.jpg" alt=""></li>
+              <li><img src="image/works2.jpg" alt=""></li>
+              <li><img src="image/works3.jpg" alt=""></li>
+              <li><img src="image/works4.jpg" alt=""></li>
+              <li><img src="image/works5.jpg" alt=""></li>
+              <li><img src="image/works6.jpg" alt=""></li>
+            </ul>
+        </div>
+      </section>
+      <section class="news">
+        <div class="wrapper">
+          <h2 class="section-title">News</h2>
+          <dl class="news-cont">
+            <dt>2020.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+            <dt>2020.XX.XX</dt>
+            <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+            <dt>2019.XX.XX</dt>
+            <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+          </dl>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="wrapper">
+          <h2 class="section-title">Contact</h2>
+          <form action="#" method="post">
+            <dl>
+              <dt><label for="name">NAME</label></dt>
+              <dd><input type="text" id="name" name="your-name"></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="email" id="email" name="your-email"></dd>
+              <dt><label for="message">MESSAGE</label></dt>
+              <dd><textarea id="message" name="your-message"></textarea></dd>
+            </dl>
+          </form>
+          <div class="button"><input type="submit" value="送信"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2020 My Work</p>
+    </footer>
+  </body>
 </html>
